@@ -1,0 +1,232 @@
+*{
+    margin: 0; padding: 0; 
+    font-family: 'Manrope', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    border: none; outline: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 0rem;
+}
+.logo{
+    margin-top: .5rem;
+    margin-right: 2rem;
+}
+.menuLeft{
+    display: inline-flex;
+}
+.menuLeft li{
+    list-style: none;
+    display: inline-flex;
+    line-height: 3.5rem;
+    margin-left: 1rem;
+}
+.menuLeft li a{
+    color: #3c3951;
+    font-size: 1rem;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 900;
+}
+.menuRight{
+    padding: .5rem 1rem;
+    background: #ff6162;
+    border: none;
+    border-radius: .3rem;
+}
+.menuRight input{
+    color: #ffffff;
+    font-size: 1rem;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 900;
+    line-height: 2.5rem;    
+}
+.menuRight input[type=submit]{
+    background: transparent;
+}
+.bannerSection{
+    width: 100%;
+}
+.banner{
+    display: flex;
+    justify-content: flex-start;
+    padding: 8rem 0rem;
+}
+.left{
+    padding: 2rem 0rem;
+}
+.left h1{
+    width: 100%;
+    font-family: 'Manrope', sans-serif;
+    font-size: 3rem;
+    color: #292640;
+    padding: 1.5rem 0rem;
+}
+.left p{
+    width: 90%;
+    font-family: 'Manrope', sans-serif;
+    font-size: 1.1rem;
+    color: #a6b0bf;
+    padding-bottom: 1.5rem;
+}
+.left i{
+    color: #d7d8d9;
+}
+.right{
+    padding: 1rem;
+}
+.gallerySection{
+    width: 100%;
+}
+.gallery{
+    padding-top: 6rem;
+    padding-bottom: 2.5rem;
+    text-align: center;
+}
+.gallery h2{
+    font-family: 'Manrope', sans-serif;
+    font-size: 2rem; 
+    font-weight: 900;
+    color: #272640;
+}
+.gallery p{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1rem; 
+    font-weight: 500;
+    color: #71798f;
+    margin: 0rem 20rem;
+}
+.galleryImages{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 8rem;
+}
+.galleryImages img{
+    width: 100%;
+    height: 100%;  
+}
+.galleryImages p{
+    text-align: center;
+    font-size: 1rem;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 900;
+    padding: 1rem 0rem;
+}
+.line{
+    display: block;
+    width: .2rem;
+    background-color: #dbdbdf;
+    height: 5rem;
+    position: absolute;
+    left: 50%;
+}
+.featureSection{
+    width: 100%;
+}
+.feature{
+    padding-top: 12rem;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+.feature h2{
+    font-family: 'Manrope', sans-serif;
+    font-size: 2rem; 
+    font-weight: 900;
+    color: #272640;
+}
+.feature p{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1rem; 
+    font-weight: 400;
+    color: #71798f;
+}
+.featureContentSection{
+    width: 100%;
+}
+.featureContent{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 6.5rem;
+}
+.content{
+    padding: 3rem 0rem;
+    background: #f5f5f5;
+    text-align: center;
+    border-radius: .4rem;
+}
+.content i{
+    width: 5rem;
+    height: 5rem;
+    background: #ffffff;
+    margin: 1rem;
+    text-align: center;
+    line-height: 5rem;
+    border-radius: 50px;
+    color:#ff6869;
+}
+.content h3{
+    font-family: 'Manrope', sans-serif;
+    font-size: 1.2rem;
+    padding: .5rem 1rem;
+    color: #3a3e3f;
+}
+.content p{
+    font-family: 'Manrope', sans-serif;
+    font-size: 1rem;
+    padding: .5rem 1.1rem;
+    font-weight: 300;
+    color: #858889;
+}
+footer{
+    width: 100%;
+    height: 30rem;
+    background-color: #292640;
+    padding-top: 4rem;
+    text-align: center;
+}
+.footer-title h1{
+    font-family: 'Manrope', sans-serif;
+    font-size: 3rem;
+    color: #ffffff;
+    margin: 1rem 25rem;
+}
+.footer-btn{
+    padding: .5rem 1rem;
+    background: #ff6162;
+    border: none;
+    border-radius: .3rem;
+    margin:  2rem 35rem;
+}
+.footer-btn input{
+    color: #ffffff;
+    font-size: 1rem;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 900;
+    line-height: 2rem;    
+}
+.footer-btn input[type=submit]{
+    background: transparent;
+}
+.footerLogo{
+    width: 100%;
+    padding-top: .5rem;
+}
+.footerIcon i{
+    color: #d7d8d9;
+    margin-left: 95%;
+}
